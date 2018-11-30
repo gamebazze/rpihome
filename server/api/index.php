@@ -1,5 +1,5 @@
 <?php 
-require_once "./includes/include.php";
+require_once dirname() . "../includes/include.php";
 
 $action = $_GET['action'];
 
