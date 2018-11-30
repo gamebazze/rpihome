@@ -1,5 +1,7 @@
 <?php 
-require_once dirname() . "../includes/include.php";
+require_once __DIR__ . "/../includes/include.php";
+
+sec_session_start();
 
 $action = $_GET['action'];
 
